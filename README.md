@@ -164,7 +164,7 @@ curl ipv4.icanhazip.com
 
 ---
 
-## 🗃️ Step 8: Create .env file
+## 🗃️ Step 8: Create .env file (```nano .env```)
 
 Example:
 
@@ -178,13 +178,13 @@ P2P_IP=YourServerPublicIP
 
 ---
 
-## 🐳 Step 9: Docker Compose
+## 🐳 Step 9: Docker Compose (```nano docker-compose.yml```)
 
 ```yaml
 services:
   aztec-node:
     container_name: aztec-sequencer
-    image: aztecprotocol/aztec:0.85.0-alpha-testnet.8
+    image: aztecprotocol/aztec:0.87.6
     restart: unless-stopped
     environment:
       ETHEREUM_HOSTS: ${ETHEREUM_HOSTS}
