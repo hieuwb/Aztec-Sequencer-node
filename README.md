@@ -1,4 +1,3 @@
-# Aztec-Sequencer-node by Ceberus-node
 # 🚀 Aztec Sequencer Node Setup – Comprehensive Guide
 
 This guide walks you through setting up a **Sequencer Node** on the Aztec Network testnet and earning the `Apprentice` role.
